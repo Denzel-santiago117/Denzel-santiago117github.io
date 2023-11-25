@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PAGINA PERSONAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family:'Merriweather',serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fefefe;
+        }
+
+        header {
+            background-color: rgb(43, 150, 154);
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: relative; /* Para que la posición absoluta funcione dentro de header */
+        }
+
+       div{
+        background-color: rgb(111, 43, 154);
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: relative; /* Para que la posición absoluta funcione dentro de header */
+
+       }
+    /* configuracion de los links */
+        nav {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px;
+            
+        }
+        nav li {
+            display: inline;
+            margin-right: 10px;
+            border-radius: 5px solid #000000;
+            
+        }
+
+    
+
+        /* enlaces dentro de la navegación */
+        #navbar a {
+            color: #080808; /* Cambia el color de los enlaces a rojo */
+            text-decoration:none;
+            font-weight: bold;
+            font-size: 18px;
+
+            /* Otros estilos adicionales para los enlaces */
+        }
+
+        /* Estilos cuando el enlace está en estado 'hover' (cuando pasas el ratón sobre él) */
+        #navbar a:hover {
+            color: #ffffff; /* Cambia el color a verde cuando pasas el ratón sobre el enlace */
+            /* Otros estilos adicionales para el estado 'hover' */
+        }
+
+        
+        /* 2 cuadro de texto */
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* pie de pagina */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+    /* Estilos para la imagen de tomorroland */
+    .imagen-centrada {
+      display: block;
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+      
+      width: 35%;
+    }
+
+    /* Estilos para el logo politecnico */
+    .imagen-movida {
+      transform: translateX(-650px); /* Mueve la imagen hacia la derecha */
+      width: 9%; /* Establece el ancho al 50% del contenedor */
+     
+    }
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <header> 
+        <!-- menu -->
+         <nav id="navbar">
+            <li><a href="index.html" class="">Inicio</a></li>
+            <li><a href="QuienSoy.html">QuienSoy</a> <QuienSoy class="html"> </QuienSoy></li>
+            <li><a href="Portafolio.html">Portafolio</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contactos.html">Contactos</a></li>
+         </nav>
+         <img src="img/up.jpg" alt="el bati chico" class="imagen-movida">
+         <img src="img/tomorroland.jpg" alt="tomorroland" class="imagen-centrada">
+
+         
+         <!-- musica -->
+         <audio controls>
+            <source src="audio/Alok, Bruno Martini Ft. Zeeba - Hear Me Now  Sub Español.mp3" type="audio/mpeg">
+          </audio>
+
+          <audio controls>
+            <source src="audio/02 Under Control.mp3" type="audio/mpeg">
+          </audio>
+
+          <audio controls>
+            <source src="audio/09 The Way You Make Me Feel.mp3" type="audio/mpeg">
+          </audio>
+         
+         
+
+    </header>
+
+
+    <div><!-- segundo titulo -->
+        
+        <h1> DENZEL ENRIQUE SANTIAGO ZEPEDA </h1>
+        <p>Ingeniero en software Primero C.</p>
+        <h2>MI PAGINA WEB</h2>
+        <p>Mucho que contar pero muy poco que decir.</p>
+    </div>
+
+    <section><!-- introduccion mia -->
+        <h2>¡Bienvenido!</h2>
+        <p>Esta es tu página. Puedes saber de mi o buscar crear tu pagina web para tu empresa según tus necesidades.</p>
+        <p>Puedo ayudarte en crear la pagina de tus sueños, de todo tipo, si vendes cualquier producto yo puedo crear tu propia pagina de ventas</p>
+        <p>¿Quieres abrir un negocio? ¡No busques mas! y contactame yo podre crear tu pagina para que tu negocio salga a la luz y puedas empezar tus sueños de buena forma.</p>
+    </section>
+
+    <footer><!-- final de pagina -->
+        <p>Universidad politecnica de chiapas</p>
+        <p>derecho reservado</p>
+        <p>&copy; 2023 BlinxIndustries</p>
+    </footer>
+
+
+
+</body>
+</html>
